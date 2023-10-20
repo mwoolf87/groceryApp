@@ -37,7 +37,7 @@ onValue(shoppingListInDB, function (snapshot) {
       // removeShoppingListItem(currentItemID)
     }
   } else {
-    shoppingListEl.textContent = "No items here... yet";
+    shoppingListEl.innerHTML = "No items here... yet";
   }
 });
 
